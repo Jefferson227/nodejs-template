@@ -1,26 +1,13 @@
 {
-  "name": "busca-cinema-backend",
+  "name": "nodejs-template",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "author": "Jefferson Matheus <jefferson227@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jefferson227/busca-cinema-backend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jefferson227/busca-cinema-backend/issues"
-  },
-  "homepage": "https://github.com/Jefferson227/busca-cinema-backend#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "request": "^2.83.0"
+    "express": "^4.17.1"
   }
 }
